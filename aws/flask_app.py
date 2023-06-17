@@ -92,7 +92,7 @@ def convert():
     csv_num = request.form['email_count']
 
     # Set the absolute file path
-    file_path = '/home/inconsistentcontacts/myapp/static/data_.csv'
+    file_path = 'https://raw.githubusercontent.com/will-carrington/new_app/edit/main/aws/data_.csv'
 
     # Read the CSV file using pandas
     ddf = pd.read_csv(file_path)
